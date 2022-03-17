@@ -6,62 +6,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    
+    <script src="https://kit.fontawesome.com/df71b0f2aa.js" crossorigin="anonymous"></script>
+
     <title>Una Card de Instagram</title>
 </head>
 <body>
+    <!----------------------------------debo modificar el ejercicio con div solo no bootstrap-------->
     <div class="container">
-        <div class="row">
-            <div class="col"></div>
-            <div class="col">
 
-                <div class="card" style="width: 18rem;">
-                    <div class="title_card">
-                        <img src=".\imagencabecera.png" alt="imagencabecera">
-                    </div>
-                    <img class="card-img-top" src="https://img.ev.mu/images/articles/960x/826765.jpg" alt="paisaje japones">
-                    <div class="card-body">
-                      <h5 class="card-title">Viaje a Japón 2014</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                  </div>
-            </div>
-            <div class="col"></div>
-
-
-
-
+        <div class="col"></div>
+        <div class="col" style="display:flex; align-items:center; justify-content: center;">
+        
+            <div class="card" style="width: 500px; height: 700px;" id="card-instagram_completa">
+                <div class="title_card" style="height: 80px; ">
+                    <img src=".\imagencabecera.png" alt="imagencabecera" style="width: 20%; height: 60%; float: left; margin: 10px 20px 10px 20px; ">
+                        <button class="btn btn-outline-success dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="width: 10%; height: 60%; float: right; margin-top:20px; margin-right: 10px; ">
+                            <i class="fa-solid fa-align-justify"></i></button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                              </div>
+                       
+                      
+                </div>
+                <img class="card-img-top" src="https://img.ev.mu/images/articles/960x/826765.jpg" alt="paisaje japones">
+                
+                <div class="iconos" >
+                   <h3 style="margin: 8px 7px 8px 0px;"><i class="fa-regular fa-heart"></i><i class="fa-regular fa-comment"></i><i class="fa-regular fa-paper-plane"></i><i class="fa-regular fa-bookmark" style="float:right;"></i>
+                   </h3>
+                </div>
+                <div class="card-body">
+                  <h4 class="card-title">Viaje a Japón 2014</h4>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
         </div>
+        <div class="col"></div>
+
        
 
 
     </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <!---------------------------------------------------------------->
@@ -74,3 +61,6 @@
     
 </body>
 </html>
+
+
+
